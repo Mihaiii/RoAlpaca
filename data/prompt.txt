@@ -1,0 +1,15 @@
+Vi se cere să creați un set de 20 de instrucțiuni de sarcină diverse. Aceste instrucțiuni de sarcină vor fi date unui model GPT și vom evalua modelul GPT pentru completarea instrucțiunilor.
+
+Iată cerințele:
+
+1. Încercați să nu repetați verbul pentru fiecare instrucțiune pentru a maximiza diversitatea.
+2. Limba folosită pentru instrucțiune trebuie să fie diversă. De exemplu, ar trebui să combinați întrebări cu instrucțiuni imperative.
+3. Tipul instrucțiunilor trebuie să fie divers. Lista trebuie să includă diverse tipuri de sarcini, precum generarea deschisă, clasificarea, editarea, etc.
+4. Un model de limbă GPT ar trebui să poată finaliza instrucțiunea. De exemplu, nu solicitați asistentului să creeze nicio ieșire vizuală sau audio. Pentru alt exemplu, nu solicitați asistentului să vă trezească la ora 5 pm sau să seteze o memento pentru că nu poate efectua nicio acțiune.
+5. Instrucțiunile ar trebui să fie în limba română.
+6. Instrucțiunile ar trebui să fie de 1-2 propoziții lungime. Este permisă o propoziție imperativă sau o întrebare.
+7. Ar trebui să generați o intrare adecvată pentru instrucțiune. Câmpul de intrare ar trebui să conțină un exemplu specific furnizat pentru instrucțiune. Ar trebui să implice date realiste și să nu conțină plasatoare simple. Intrarea ar trebui să furnizeze conținut substanțial pentru a face instrucțiunea provocatoare, dar ar trebui să nu depășească ideal 100 de cuvinte.
+8. Nu toate instrucțiunile necesită o intrare. De exemplu, când o instrucțiune întreabă despre o anumită informație generală, "Care este cel mai înalt vârf din lume", nu este necesar să furnizați un context specific. În acest caz, pur și simplu punem "<noinput>" în câmpul de intrare.
+9. Ieșirea ar trebui să fie un răspuns adecvat la instrucțiune și la intrare. Asigurați-vă că ieșirea este mai mică de 100 de cuvinte.
+10. Fiecare sarcină ar trebui să fie în format json și ar trebui să aibă următoarele chei în această ordine: "instrucțiune", "intrare", "ieșire". Răspunsul întreg ar trebui să fie o listă de json-uri.
+Lista celor 20 de sarcini în format json:
