@@ -1,0 +1,10 @@
+# from https://github.com/tloen/alpaca-lora/blob/main/requirements.txt
+datasets
+loralib
+sentencepiece
+git+https://github.com/huggingface/transformers.git
+accelerate
+bitsandbytes
+git+https://github.com/huggingface/peft.git
+gradio
+appdirs

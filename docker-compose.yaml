@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  dev:
+    image: alpaca-lora
+    container_name: alpaca-lora
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    runtime: nvidia
+    volumes:
+      - ${PWD}:/app
+    working_dir: /app
+    command: bash
