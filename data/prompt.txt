@@ -1,4 +1,4 @@
-Vi se cere să creați un set de 16 de instrucțiuni de sarcină diverse. Aceste instrucțiuni de sarcină vor fi date unui model GPT și vom evalua modelul GPT pentru completarea instrucțiunilor.
+Vi se cere să creați un set de 15 de instrucțiuni de sarcină diverse. Aceste instrucțiuni de sarcină vor fi date unui model GPT și vom evalua modelul GPT pentru completarea instrucțiunilor.
 
 Iată cerințele:
 
@@ -14,4 +14,4 @@ Iată cerințele:
 10. Fiecare sarcină ar trebui să fie în format json și ar trebui să aibă următoarele chei în această ordine: "instrucțiune", "intrare", "ieșire". 
 11. Răspunsul întreg ar trebui să fie o listă de json-uri. 
 12. Întregul răspuns trebuie sa fie un json valid. Asigură-te că escapezi caracterele atunci când este necesar.
-Lista de obiecte a celor 16 de sarcini în format json:
+Lista de obiecte a celor 15de sarcini în format json:
