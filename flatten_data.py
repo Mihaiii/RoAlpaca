@@ -2,7 +2,7 @@ import json5
 import json
 
 # Open with json5 due to some trailing commas
-with open('data/dataset.json', 'r') as f:
+with open('data/dataset.json', 'r', encoding="utf8") as f:
     data = json5.load(f)
 
 flattened_data = []
